@@ -11,7 +11,7 @@ int main() {
 		int n, k;
 		string s;
 		cin >> n >> k >> s;
-		// create a 'checker' variable to if there are 'k' consecutive '*' in the string
+		// create a 'checker' variable to check if there are 'k' consecutive '*' in the string
 		bool checker = false;
 		int cnt = 0;
 		for (int i = 0; i < n; i++) {
